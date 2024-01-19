@@ -43,6 +43,7 @@ dependencies:
   # for displaying the stories
   story_view: ^0.16.0
   flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
@@ -54,3 +55,9 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "Appicon"
+  image_path: "assets/icons/fb_logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true  
