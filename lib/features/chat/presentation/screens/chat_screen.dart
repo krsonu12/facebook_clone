@@ -8,7 +8,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:facebook_clone/features/chat/providers/chat_provider.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:image_picker/image_picker.dart';
 
 class ChatScreen extends ConsumerStatefulWidget {
   const ChatScreen({
