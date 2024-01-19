@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "852788491165",
-    "project_id": "facebook-clone-d35c7",
-    "storage_bucket": "facebook-clone-d35c7.appspot.com"
+    "project_number": "390015072653",
+    "project_id": "facebook-clone-b632c",
+    "storage_bucket": "facebook-clone-b632c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:852788491165:android:028cbd7bbabeadc36ab574",
+        "mobilesdk_app_id": "1:390015072653:android:01d841b4357bab4304e5c4",
         "android_client_info": {
           "package_name": "com.codehq.facebook_clone"
         }
       },
       "oauth_client": [
         {
-          "client_id": "852788491165-2op4tb7uf4ohtfg4j1canpfl73f1782l.apps.googleusercontent.com",
+          "client_id": "390015072653-qgu4qi13750d4ru3r46lcb96hr2eb8l7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codehq.facebook_clone",
+            "certificate_hash": "c812e5bf8595a0f7d739ef4fa48818e2a3a0dcf3"
+          }
+        },
+        {
+          "client_id": "390015072653-ebqc7juf5dirslss0ighb3i1if7f8n37.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC-UQrx582MIQFWOGNN9tfAr0nkDnd6nTU"
+          "current_key": "AIzaSyDyMi95RO8luydOka2j4F3OcD43Gs1O7AY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "852788491165-2op4tb7uf4ohtfg4j1canpfl73f1782l.apps.googleusercontent.com",
+              "client_id": "390015072653-ebqc7juf5dirslss0ighb3i1if7f8n37.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

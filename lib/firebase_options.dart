@@ -17,13 +17,19 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -46,31 +52,11 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBR8c-9zcgmVSEliFicRuU2OhnzHqXnGc4',
-    appId: '1:852788491165:web:5fc2f03bc854a8c96ab574',
-    messagingSenderId: '852788491165',
-    projectId: 'facebook-clone-d35c7',
-    authDomain: 'facebook-clone-d35c7.firebaseapp.com',
-    storageBucket: 'facebook-clone-d35c7.appspot.com',
-    measurementId: 'G-S7LFF481C9',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC-UQrx582MIQFWOGNN9tfAr0nkDnd6nTU',
-    appId: '1:852788491165:android:028cbd7bbabeadc36ab574',
-    messagingSenderId: '852788491165',
-    projectId: 'facebook-clone-d35c7',
-    storageBucket: 'facebook-clone-d35c7.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCfo70UUsJFiVjiOun5GYDDip-VMkO5hXE',
-    appId: '1:852788491165:ios:2d64d7d926f8ad576ab574',
-    messagingSenderId: '852788491165',
-    projectId: 'facebook-clone-d35c7',
-    storageBucket: 'facebook-clone-d35c7.appspot.com',
-    iosClientId: '852788491165-7pgkn1471rha752r17gmp13bujhj186n.apps.googleusercontent.com',
-    iosBundleId: 'com.codehq.facebookClone',
+    apiKey: 'AIzaSyDyMi95RO8luydOka2j4F3OcD43Gs1O7AY',
+    appId: '1:390015072653:android:01d841b4357bab4304e5c4',
+    messagingSenderId: '390015072653',
+    projectId: 'facebook-clone-b632c',
+    storageBucket: 'facebook-clone-b632c.appspot.com',
   );
 }
